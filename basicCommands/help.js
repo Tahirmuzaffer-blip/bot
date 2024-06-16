@@ -65,7 +65,7 @@ module.exports = {
       .setStyle(ButtonStyle.Link);
       
     const row = new ActionRowBuilder()
-      .addComponents( button2 );
+      .addComponents(button2);
     
     message.reply({ embeds: [embed], components: [row] });
   },
